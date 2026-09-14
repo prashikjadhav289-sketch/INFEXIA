@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>INFEXIA | Smart Country AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="infexia-app">
+
+        <!-- Background -->
+        <div class="background-glow"></div>
+
+        <!-- INFEXIA ROBOT -->
+        <section class="robot-stage">
+
+            <div class="energy-ring ring-one"></div>
+            <div class="energy-ring ring-two"></div>
+
+            <div class="robot-container" id="robotContainer">
+
+                <!-- Main Robot -->
+                <img
+                    src="robot/robot.jpeg"
+                    alt="INFEXIA Robot"
+                    id="robot"
+                    class="robot-image"
+                >
+
+                <!-- Future animation layers -->
+                <div id="robotLayers">
+
+                    <div
+                        id="eyesLayer"
+                        class="robot-layer eyes-layer">
+                    </div>
+
+                    <div
+                        id="mouthLayer"
+                        class="robot-layer mouth-layer">
+                    </div>
+
+                    <div
+                        id="leftHandLayer"
+                        class="robot-layer left-hand-layer">
+                    </div>
+
+                    <div
+                        id="rightHandLayer"
+                        class="robot-layer right-hand-layer">
+                    </div>
+
+                    <div
+                        id="chestLayer"
+                        class="robot-layer chest-layer">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NAME -->
+        <section class="identity">
+
+            <h1>INFEXIA</h1>
+
+            <p>
+                SMART COUNTRY • FUTURISTIC AI ASSISTANT
+            </p>
+
+        </section>
+
+
+        <!-- SYSTEM STATUS -->
+        <div class="status-box">
+
+            <span
+                class="status-dot"
+                id="statusDot">
+            </span>
+
+            <span id="statusText">
+                System Online & Ready
+            </span>
+
+        </div>
+
+
+        <!-- VOICE WAVE -->
+        <div
+            class="audio-wave"
+            id="audioWave">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+
+        <!-- MICROPHONE -->
+        <div class="voice-control">
+
+            <button
+                id="micButton"
+                class="mic-button">
+
+                🎤 Tap & Speak
+
+            </button>
+
+        </div>
+
+
+        <!-- CAMERA -->
+        <video
+            id="webcam"
+            autoplay
+            playsinline
+            muted>
+        </video>
+
+
+        <!-- CONVERSATION -->
+        <section
+            id="conversation"
+            class="conversation">
+
+            <div class="ai-message">
+
+                <strong>INFEXIA:</strong>
+
+                <span>
+                    Hello Sir. I am INFEXIA. System online and ready.
+                </span>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
